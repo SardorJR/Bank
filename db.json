@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "6b68",
+      "email": "sardorbekkhotamov77@gmail.com",
+      "name": "sardor",
+      "surname": "khotamov",
+      "password": "1234"
+    },
+    {
+      "id": "debf",
+      "email": "eee@gmail.com",
+      "name": "sardor",
+      "surname": "khotamov",
+      "password": "33333"
+    }
+  ],
+  "cards": [
+    {
+      "id": "bb44",
+      "name": "sardor",
+      "val": "dollar"
+    },
+    {
+      "id": "d1f1",
+      "name": "sardor",
+      "val": "dollar"
+    }
+  ],
+  
+  "balance": []
+}

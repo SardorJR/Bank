@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Raleway;
+  outline: none
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  padding-block: 200px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  p {
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-block: 20px 0;
+}
+
+input {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  margin-block: 5px;
+  border: 1px solid black;
+}
+
+select {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  margin-block: 5px;
+  border: 1px solid black;
+}
+
+option {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  margin-block: 5px;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 600;
+  padding-inline: 10px;
+  color: black;
+}
+
+button {
+  width: 438px;
+  height: 56px;
+  border-radius: 10px;
+  background: #0047FF;
+  color: white;
+  font-size: 16px;
+  border: 0;
+  font-weight: 600;
+
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #eb0000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  position: absolute;
+  top: -250px;
+  width: 20%;
+  left: 700px;
+}
+
+/* Стили для кнопки закрытия модального окна */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#modalMessage {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.modall {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#modalMessagee {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.modal-contentt {
+  background-color: #00eb1f;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  position: absolute;
+  top: -250px;
+  width: 20%;
+  left: 700px;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+option {
+  padding: 10px;
+}
+
+/* Пример стилизации при наведении */
+option:hover {
+  background-color: #f0f0f0;
+}
+
+
+option:checked {
+  background-color: #ff0000;
+}
+
+
+option:focus {
+  outline: none;
+  background-color: #cccccc;
+}
